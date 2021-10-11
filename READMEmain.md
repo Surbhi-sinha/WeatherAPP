@@ -43,3 +43,7 @@ localhost:3000
 ```
 
 a page will pop up such like this below:-
+[](11.10.2021_21.59.21_REC.png)
+
+search the place where you want to search the weather. 
+peace to everyone :pray:
