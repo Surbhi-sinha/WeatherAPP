@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/weather2.png">
+    <link rel = "stylesheet" href="../styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f0fb4a7735.js" crossorigin="anonymous"></script>
+    
+    <title>Weather APP</title>
+</head>
+<body>
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="column">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/The_Weather_Channel_logo_2005-present.svg/1200px-The_Weather_Channel_logo_2005-present.svg.png">
+        </div>
+    
+        <!-- Main -->
+        <div class="column2">
+        {{!-- the partials is rendered by the "{{>FILENAMEwithoutextension}} " --}}
+        
+            <div class="mainpara">
+                
+                <div>
+                    <h1>{{>header}}</h1> 
+                </div>
+                    <br>
+                    <br>
+                <form class="inputfieled">
+                    <input type="text" placeholder="Location">
+                    <button>search<i class="fas fa-search"></i></button>
+                </form>
+
+                <br>
+                <div class="databack">
+                     <p id="msg1"></p>
+                <p id="msg2"></p>
+                <p id="msg3"></p>
+                <p id="msg4"></p>
+                <p id="msg5"></p>
+
+                </div>
+                           </div>
+        </div>
+
+    </div>
+    {{>footer}} 
+    <script src="/js/app.js"></script>
+</body>
+</html>

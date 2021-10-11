@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+.container {
+    display: flex;
+}
+header h1{
+    float: left;
+    color: white;
+    font-family: 'Merriweather', serif;
+  }
+  header a{
+    font-size: 20px;
+    float: right;
+    text-decoration: none;
+    color: white;
+    margin-right: 16px;
+    margin-top: 0px;
+  }
+  header a:hover{
+    color:	#b3cde0;
+  }
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 0 8px;
+}
+.column2 {
+    background-image: url('https://images.freeimages.com/images/large-previews/b25/sky-soft-couds-1340799.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height: 40rem;
+    float: left;
+    width: 64%;
+    color: azure;
+    padding: 0 8px;
+}
+img {
+    height: 40rem;
+    width: 30rem;
+}
+
+.inputfieled{
+    margin-top: 20vh;
+    
+}
+input{
+    padding:14px;
+}
+button{
+    padding:14px;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+.mainpara{
+    padding: 20px;
+}
+.databack{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    color:#032149;
+    
+}
+
+footer{
+    background-color: #005b96;
+    color: white;
+    height: 100px;
+    padding: 16px;
+    padding-bottom: 30px;
+  
+}
+footer a{
+  font-size: 20px;
+  float: left;
+  text-decoration: none;
+  color:white;
+  margin-right: 12px;
+  padding: 30px;
+}
+footer a:hover{
+  color:	#b3cde0;
+}
