@@ -18,7 +18,12 @@ weatherForm.addEventListener('submit' , (e) => {
     messageone.textContent = 'loading...'
     messagetwo.textContent = ''
     
-    fetch('http://localhost:3000/weather?address='+location).then((response) => {
+
+    // the fetch statement was altered from
+    // fetch(https//:localhost:3000/weather?address to the current one to make it run throught the heroku 
+    // we need to do three things for heroku 1. updating the pakage.json start call, 2. making the port dyanamin in src/app.js , 3. changint the fecth statement here)
+    
+    fetch('/weather?address='+location).then((response) => {
     response.json().then((data) => {
         if(data.error){
             messageone.textContent = data.error
