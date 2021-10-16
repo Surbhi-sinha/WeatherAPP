@@ -1,6 +1,6 @@
 # WeatherAPP
 It is a live application WeatherAPP made by using node.js and APIs.
-You can also access the app via Heroku url which is provided below :- 
+
 
 ## How to run on the terminal
 
@@ -55,4 +55,13 @@ the other parts of this project is a about page and a help page though they are 
 
 ## Help page
 ![about page](11.10.2021_22.46.03_REC.png)
+
+## 404 error page
+I have also provided a 404 error page in case you are looking for something that is not known to the servers.
+-  A 404 error page is a page that is returned when servers don't know what to return
+
+the 404 error page looks like below:-
+
+
+![404 ERROR PAGE](16.10.2021_23.46.21_REC.png)
 peace to everyone :pray:
