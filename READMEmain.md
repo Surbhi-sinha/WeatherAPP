@@ -1,5 +1,6 @@
 # WeatherAPP
-It is a live application WeatherAPP made by using node.js and APIs 
+It is a live application WeatherAPP made by using node.js and APIs.
+You can also access the app via Heroku url which is provided below :- 
 
 ## How to run on the terminal
 
