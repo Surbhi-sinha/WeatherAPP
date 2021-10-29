@@ -43,7 +43,9 @@ enter :-
 localhost:3000
 ```
 
+
 a page will pop up such like this below:-
+
 ![home page](11.10.2021_21.59.21_REC.png)
 
 search the place where you want to search the weather. 
@@ -64,4 +66,11 @@ the 404 error page looks like below:-
 
 
 ![404 ERROR PAGE](16.10.2021_23.46.21_REC.png)
+
+
+## OverAll representation
+
+<p align="center">
+  <img src ="weatherAPP.gif">
+</p>
 peace to everyone :pray:
