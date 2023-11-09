@@ -53,7 +53,7 @@ search the place where you want to search the weather.
 the other parts of this project is a about page and a help page though they are static and have some dummy text in it only.
 
 ## About page
-![About page](11.10.2021_22.46.22_REC.png)
+
 
 ## Help page
 ![about page](11.10.2021_22.46.03_REC.png)
